@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: #DCDCDC; 
+    margin: 0; 
+
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    margin: 10px auto;
+    min-width: 300px;
+    max-width: 500px;
+}
+.title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+
+    text-transform: uppercase;
+
+    background-color: #C0C0C0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.input {
+    margin-bottom: 10px;
+    /* min-width: 250px; */
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.input-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding-bottom: 10px;
+}
+
+.btn {
+    
+
+    min-height: 80px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #A9A9A9;
+
+}
+
+.output-part {
+    display: none;
+}
+.res {
+    
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    top: 70px;
+    left: 0;
+
+    width: 100%;
+
+    background-color:#DCDCDC;
+
+    padding-bottom: 80px;
+}
+
+.team-title {
+    font-size: 20px;
+    font-weight: 400;
+
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+.team {
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-show {
+    display: none;
+}
