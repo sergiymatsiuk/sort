@@ -25,10 +25,23 @@ body {
     background-color: #C0C0C0;
 }
 
+.three-team, .two-team {
+    display: none;
+}
+
+.choose{
+    display: flex;
+    flex-direction: column;
+}
+.choose .btn {
+    margin-top: 50px;
+}
+
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 
 }
 
@@ -117,4 +130,7 @@ body {
 }
 .pl {
     text-align: center;
+}
+.yes-show {
+    display: flex;
 }
